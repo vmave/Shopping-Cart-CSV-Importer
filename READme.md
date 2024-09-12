@@ -50,3 +50,26 @@ To get started with this project, follow the steps below.
 ```bash
    npm test
 ```
+
+# Project Overview
+
+## Project Structure
+
+- **`/src`**: Contains the TypeScript source code.
+  - **`/components`**: UI-related components.
+  - **`/utils`**: Utility functions and helpers.
+- **`/tests`**: Contains test files for the application.
+- **`index.html`**: The HTML file for the application.
+
+## Configuration
+
+- **`tsconfig.json`**: TypeScript configuration.
+- **`jest.config.js`**: Jest configuration for running tests.
+
+## Dependencies
+
+- **`vite`**: Build tool for fast development and production builds.
+- **`typescript`**: TypeScript language support.
+- **`jest`**: Testing framework.
+- **`papaparse`**: CSV parsing library.
+
