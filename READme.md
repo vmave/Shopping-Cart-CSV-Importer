@@ -23,7 +23,7 @@ To get started with this project, follow the steps below.
 1. **Clone the repository**:
 
    ```bash
-   git clone [https://github.com/yourusername/csv-importer-ts.git](https://github.com/vmave/Shopping-Cart-CSV-Importer)
+   git clone git@github.com:vmave/Shopping-Cart-CSV-Importer.git
    cd csv-importer-ts
    ```
 
