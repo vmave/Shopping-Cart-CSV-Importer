@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    /* Module interop settings */
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+
+    /* Target and module */
+    "target": "ES2020",
+    "module": "ESNext",
+
+    /* DOM and ECMAScript library support */
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+
+    /* Skip type checks for libraries */
+    "skipLibCheck": true,
+
+    /* Module resolution */
+    "moduleResolution": "node", // Use Node.js-style module resolution to ensure compatibility with external libraries
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true, // Ensure each file is treated as a separate module
+    "moduleDetection": "force",
+
+    /* Source map and emit options */
+    "noEmit": true, // Don't emit JS output
+
+    /* Linting and strict settings */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+
+    /* Enable for compatibility with libraries like papaparse */
+    "resolveJsonModule": true, // Allows importing of .json files
+    "allowJs": true // Allows importing of JS modules, useful when working with JS libraries
+  },
+  "include": ["src"]
+}

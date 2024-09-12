@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart CSV Importer</title>
+    <style>
+      .error {
+        color: red;
+      }
+      .success {
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Shopping Cart CSV Importer</h1>
+
+    <div>
+      <h2>Upload CSV to Add Items</h2>
+      <input type="file" id="csvFileInput" accept=".csv" />
+      <p id="message"></p>
+    </div>
+
+    <div>
+      <h2>Shopping Cart</h2>
+      <ul id="cartItems"></ul>
+    </div>
+
+    <script src="./src/main.ts" type="module"></script>
+  </body>
+</html>
