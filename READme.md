@@ -29,28 +29,24 @@ To get started with this project, follow the steps below.
 
 2. **Install dependencies:**:
 
-```bash npm install
-
+```bash
+   npm install
 ```
 
 3.**Development:**:
 
-```bash npm run dev
-
-
+```bash
+    npm run dev
 ```
 
 4. **Previewing the Build:**:
 
-```bash npm run preview
-
-
+```bash
+   npm run preview
 ```
 
 5. **Test:**:
 
-```bash npm test
-
-
-
+```bash
+   npm test
 ```
